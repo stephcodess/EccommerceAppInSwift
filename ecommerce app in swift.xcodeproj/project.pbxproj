@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52B3352A2A2581360024944F /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B335292A2581360024944F /* NotificationView.swift */; };
+		52B3352C2A2593BC0024944F /* OrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B3352B2A2593BC0024944F /* OrdersView.swift */; };
 		52C4E17F2A21EA5E00A5A2F7 /* ecommerce_app_in_swiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C4E17E2A21EA5E00A5A2F7 /* ecommerce_app_in_swiftApp.swift */; };
 		52C4E1812A21EA5E00A5A2F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C4E1802A21EA5E00A5A2F7 /* ContentView.swift */; };
 		52C4E1832A21EA6100A5A2F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C4E1822A21EA6100A5A2F7 /* Assets.xcassets */; };
 		52C4E1862A21EA6100A5A2F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C4E1852A21EA6100A5A2F7 /* Preview Assets.xcassets */; };
+		52C4E1902A21EAF400A5A2F7 /* signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C4E18F2A21EAF400A5A2F7 /* signup.swift */; };
+		52C4E1922A2232EF00A5A2F7 /* forgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C4E1912A2232EF00A5A2F7 /* forgotPassword.swift */; };
+		52C4E1942A2283F000A5A2F7 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C4E1932A2283F000A5A2F7 /* OnboardingView.swift */; };
+		52C4E1992A22C0AF00A5A2F7 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C4E1982A22C0AF00A5A2F7 /* ButtonView.swift */; };
+		52C4E19C2A236D4400A5A2F7 /* productsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C4E19B2A236D4400A5A2F7 /* productsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52B335292A2581360024944F /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		52B3352B2A2593BC0024944F /* OrdersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersView.swift; sourceTree = "<group>"; };
 		52C4E17B2A21EA5E00A5A2F7 /* ecommerce app in swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ecommerce app in swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C4E17E2A21EA5E00A5A2F7 /* ecommerce_app_in_swiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ecommerce_app_in_swiftApp.swift; sourceTree = "<group>"; };
 		52C4E1802A21EA5E00A5A2F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		52C4E1822A21EA6100A5A2F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52C4E1852A21EA6100A5A2F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52C4E18F2A21EAF400A5A2F7 /* signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signup.swift; sourceTree = "<group>"; };
+		52C4E1912A2232EF00A5A2F7 /* forgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgotPassword.swift; sourceTree = "<group>"; };
+		52C4E1932A2283F000A5A2F7 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		52C4E1982A22C0AF00A5A2F7 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		52C4E19B2A236D4400A5A2F7 /* productsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +65,8 @@
 		52C4E17D2A21EA5E00A5A2F7 /* ecommerce app in swift */ = {
 			isa = PBXGroup;
 			children = (
+				52C4E18D2A21EAB500A5A2F7 /* Model */,
+				52C4E18C2A21EAAD00A5A2F7 /* View */,
 				52C4E17E2A21EA5E00A5A2F7 /* ecommerce_app_in_swiftApp.swift */,
 				52C4E1802A21EA5E00A5A2F7 /* ContentView.swift */,
 				52C4E1822A21EA6100A5A2F7 /* Assets.xcassets */,
@@ -65,6 +81,51 @@
 				52C4E1852A21EA6100A5A2F7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52C4E18C2A21EAAD00A5A2F7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52C4E19A2A236D1100A5A2F7 /* home */,
+				52C4E1952A22C07700A5A2F7 /* common */,
+				52C4E18E2A21EAC300A5A2F7 /* authentication */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52C4E18D2A21EAB500A5A2F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52C4E18E2A21EAC300A5A2F7 /* authentication */ = {
+			isa = PBXGroup;
+			children = (
+				52C4E18F2A21EAF400A5A2F7 /* signup.swift */,
+				52C4E1912A2232EF00A5A2F7 /* forgotPassword.swift */,
+				52C4E1932A2283F000A5A2F7 /* OnboardingView.swift */,
+			);
+			path = authentication;
+			sourceTree = "<group>";
+		};
+		52C4E1952A22C07700A5A2F7 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				52C4E1982A22C0AF00A5A2F7 /* ButtonView.swift */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		52C4E19A2A236D1100A5A2F7 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				52C4E19B2A236D4400A5A2F7 /* productsView.swift */,
+				52B335292A2581360024944F /* NotificationView.swift */,
+				52B3352B2A2593BC0024944F /* OrdersView.swift */,
+			);
+			path = home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +198,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52C4E1902A21EAF400A5A2F7 /* signup.swift in Sources */,
 				52C4E1812A21EA5E00A5A2F7 /* ContentView.swift in Sources */,
+				52B3352A2A2581360024944F /* NotificationView.swift in Sources */,
 				52C4E17F2A21EA5E00A5A2F7 /* ecommerce_app_in_swiftApp.swift in Sources */,
+				52C4E1942A2283F000A5A2F7 /* OnboardingView.swift in Sources */,
+				52C4E19C2A236D4400A5A2F7 /* productsView.swift in Sources */,
+				52C4E1922A2232EF00A5A2F7 /* forgotPassword.swift in Sources */,
+				52C4E1992A22C0AF00A5A2F7 /* ButtonView.swift in Sources */,
+				52B3352C2A2593BC0024944F /* OrdersView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
